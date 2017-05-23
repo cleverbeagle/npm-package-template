@@ -1,0 +1,32 @@
+{
+  "name": "npm-package-template",
+  "version": "1.0.0",
+  "description": "A template for writing NPM packages.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets latest src -d ./ --ignore src/index.test.js",
+    "dev": "babel --presets latest src -d ./ --watch --ignore src/index.test.js",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleverbeagle/npm-package-template"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "template"
+  ],
+  "author": "cleverbeagle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cleverbeagle/npm-package-template/issues"
+  },
+  "homepage": "http://packages.cleverbeagle.com/template",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^20.0.3"
+  }
+}
