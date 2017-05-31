@@ -1,6 +1,6 @@
 {
   "name": "npm-package-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A template for writing NPM packages.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/cleverbeagle/npm-package-template/issues"
   },
-  "homepage": "http://packages.cleverbeagle.com/template",
+  "homepage": "http://cleverbeagle.com/packages/template",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.24.1",
