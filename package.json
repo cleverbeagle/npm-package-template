@@ -4,8 +4,8 @@
   "description": "A template for writing NPM packages.",
   "main": "index.js",
   "scripts": {
-    "build": "babel --presets latest src -d ./ --ignore src/index.test.js",
-    "dev": "babel --presets latest src -d ./ --watch --ignore src/index.test.js",
+    "build": "babel --presets env src -d ./ --ignore src/index.test.js",
+    "dev": "babel --presets env src -d ./ --watch --ignore src/index.test.js",
     "test": "jest --watch"
   },
   "repository": {
@@ -26,7 +26,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-preset-latest": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
     "jest": "^20.0.3"
   }
 }
